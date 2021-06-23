@@ -6,14 +6,14 @@ import SearchPanel from '../search-panel';
 import PostStatusFilter from '../post-status-filter';
 import PostList from '../post-list';
 import PosrtAddForm from '../post-add-form';
-import './app.css';
+
 
 const App = () => {
 
     const data = [
-        {label: 'Going to learn React', important: true},
-        {label: 'That is so good', important: false},
-        {label: 'I need a break...', important: false}
+        {label: 'Going to learn React', important: true, id: 'qadwad'},
+        {label: 'That is so good', important: false, id: 'sdfdcx'},
+        {label: 'I need a break...', important: false, id: 'dhfd'}
     ];
 
 
