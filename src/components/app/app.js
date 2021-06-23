@@ -1,4 +1,5 @@
 import React from 'react';
+import './app.css';
 
 import AppHeadr from '../app-header';
 import SearchPanel from '../search-panel';
